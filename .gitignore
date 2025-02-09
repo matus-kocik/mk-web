@@ -116,6 +116,9 @@ web_modules/
 .next
 out
 
+# Next.js environment variables
+.env.local
+
 # Nuxt.js build / generate output
 .nuxt
 dist

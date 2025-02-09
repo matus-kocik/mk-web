@@ -1,3 +1,1 @@
-# matus-kocik-web
-
-Personal web...
+# My personal web
