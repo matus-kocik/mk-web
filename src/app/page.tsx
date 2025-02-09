@@ -19,7 +19,7 @@ type Data = {
 };
 
 export default async function HomePage() {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://matus-kocik.vercel.app";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://matus-kocik-web-fe.vercel.app";
   const res = await fetch(`${baseUrl}/data.json`, { cache: "no-store" });
 
   if (!res.ok) {
