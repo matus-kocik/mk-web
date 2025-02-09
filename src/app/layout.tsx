@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "My Portfolio",
-  description: "Personal portfolio of Matúš Kočik",
+  title: "Matúš Kočik",
+  description: "Personal web of Matúš Kočik",
 };
 
 export default function RootLayout({
