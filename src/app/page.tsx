@@ -19,11 +19,13 @@ type Data = {
 };
 
 export default async function HomePage() {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "";
-  const res = await fetch(`${baseUrl}/data.json`);
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://matus-kocik.vercel.app";
+  const res = await fetch(`${baseUrl}/data.json`, { cache: "no-store" });
+
   if (!res.ok) {
-    throw new Error("Failed to fetch data");
+    return <div className="text-red-500">Failed to fetch data.</div>;
   }
+
   const data: Data = await res.json();
 
   return (
