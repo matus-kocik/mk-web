@@ -13,7 +13,7 @@ export const SocialLink = ({ name, url, icon, info }: SocialLinkProps) => {
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center w-full p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
+            className="flex items-center w-full p-4 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300"
         >
             <div className="relative w-24 h-24 mr-6">
                 <Image
