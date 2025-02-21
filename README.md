@@ -10,6 +10,7 @@ The website is built using modern technologies:
 - **React.js** - Used for creating components and interactive elements
 - **Tailwind CSS** - Enables efficient and flexible styling
 - **TypeScript** - Ensures type safety in the code
+- **Bun** - Used as the package manager and script runner instead of npm
 
 ## 📜 Website Overview
 
