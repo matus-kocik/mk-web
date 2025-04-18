@@ -15,12 +15,6 @@
             "url": "https://www.linkedin.com/in/matuskocik/",
             "icon": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
             "info": "Connect with me on LinkedIn"
-        },
-        {
-            "name": "Medium",
-            "url": "https://medium.com/@matus-kocik",
-            "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968906.png",
-            "info": "Read my blog posts on Medium"
         }
     ]
 }
