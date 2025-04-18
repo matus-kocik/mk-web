@@ -29,12 +29,12 @@ export default async function HomePage() {
   const data: Data = await res.json();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-orange-800 to-orange-900 text-gray-700 dark:text-gray-200 p-4">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-200 p-4">
       <div className="container mx-auto max-w-xl">
         {/* Welcome Section */}
         <section className="py-12">
           <div className="flex flex-col items-center justify-center">
-            <h1 className="text-4xl font-bold text-orange-400 dark:text-gray-200">
+            <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-200">
               Hello, I am {data.profile.fullName}
             </h1>
           </div>
