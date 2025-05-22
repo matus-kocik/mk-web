@@ -15,6 +15,12 @@
             "url": "https://www.linkedin.com/in/matuskocik/",
             "icon": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
             "info": "Connect with me on LinkedIn"
+        },
+        {
+            "name": "Blog",
+            "url": "https://blog.matuskocik.com/",
+            "icon": "https://cdn-icons-png.flaticon.com/512/2541/2541988.png",
+            "info": "Read my latest blog articles, insights and thoughts"
         }
     ]
 }
